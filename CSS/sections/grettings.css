@@ -1,51 +1,59 @@
 .grettings {
-    background-image: url(../../IMG/grettings/logo.png);
+    background-image: url(../../IMG/grettings/fon.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    padding-top: 30px;
 }
 
-
-.container {
-}
 
 
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.logo {}
 
-.logo {
+.nav {}
+
+.nav__list { 
+    display: flex;
+    column-gap: 40px;
+    align-items: center;
 }
 
-
-.nav {
+.nav__item:last-child{
+    padding: 11px 17px;
+    border: 2px solid white;
+    border-radius: 4px;
 }
 
-
-.nav__list {
+.nav__item a{
+    font-family: var(--fontLF);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: #fff;
 }
-
-
-.nav__item {
-}
-
 
 .square {
+    width: 4px;
+    height: 4px;
+    background-color: white;
+}
+
+.nav__item a:hover{
+    color: var(--colorGreen);
 }
 
 
-.gpettings__content {
-}
 
+.grettings__content {}
 
-.grettings__titli {
-}
+.grettings__title {}
 
+.grettings__text {}
 
-.grettings__text {
-}
-
-
-.grettings__btn {
-
-}
+.grettings__btn {}
